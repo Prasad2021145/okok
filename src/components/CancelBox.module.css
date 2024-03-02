@@ -1,0 +1,326 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  width: 279px;
+  height: 46.1px;
+}
+.cancel {
+  position: absolute;
+  top: 7px;
+  left: 101px;
+  font-weight: 600;
+}
+.groupItem,
+.rectangleParent {
+  position: absolute;
+  left: 0;
+  width: 279px;
+  height: 46.1px;
+}
+.rectangleParent {
+  top: 536.1px;
+  font-size: 21px;
+  color: #474444;
+}
+.groupItem {
+  top: 0;
+  border-radius: 10px;
+  background-color: #60b84a;
+}
+.createQuiz {
+  position: absolute;
+  top: 8.6px;
+  left: 90px;
+  font-weight: 600;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 536px;
+  left: 369px;
+  width: 279px;
+  height: 46.1px;
+  font-size: 21px;
+  color: #fff;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 296px;
+  height: 50px;
+}
+.imageUrl {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  font-weight: 500;
+}
+.rectangleContainer,
+.rectangleDiv {
+  position: absolute;
+  top: 235px;
+  left: 0;
+  width: 296px;
+  height: 50px;
+}
+.rectangleDiv {
+  top: 0;
+  border-radius: 10px;
+  background-color: #60b84a;
+}
+.imageUrl1 {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  font-weight: 500;
+}
+.groupChild1,
+.groupDiv {
+  position: absolute;
+  left: 0;
+  width: 296px;
+  height: 50px;
+}
+.groupDiv {
+  top: 301px;
+  color: #fff;
+}
+.groupChild1 {
+  top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.materialSymbolsdeleteIcon {
+  position: absolute;
+  top: 15px;
+  left: 330px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.imageUrl2 {
+  position: absolute;
+  top: 9px;
+  left: 16px;
+  font-weight: 500;
+}
+.groupChild2,
+.rectangleParent1 {
+  position: absolute;
+  top: 367px;
+  left: 0;
+  width: 354px;
+  height: 50px;
+}
+.groupChild2 {
+  top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 296px;
+}
+.addOption {
+  position: absolute;
+  top: 9px;
+  left: 91px;
+  font-weight: 500;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 433px;
+  left: 0;
+  width: 296px;
+  height: 50px;
+}
+.optionType {
+  position: absolute;
+  top: 172px;
+  left: 18px;
+  font-weight: 500;
+}
+.groupChild3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 673px;
+  height: 50px;
+}
+.pollQuestion {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  font-weight: 500;
+}
+.rectangleParent3 {
+  position: absolute;
+  top: 94px;
+  left: 0;
+  width: 673px;
+  height: 50px;
+}
+.max5Questions {
+  position: absolute;
+  top: 14px;
+  left: 510px;
+  font-weight: 500;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 58px;
+  height: 58px;
+}
+.div {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  font-weight: 500;
+}
+.ellipseParent,
+.groupChild4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 58px;
+}
+.groupChild4 {
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.charmcrossIcon {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.div1 {
+  position: absolute;
+  top: 14px;
+  left: 23px;
+  font-weight: 500;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 0;
+  left: 78px;
+  width: 58px;
+  height: 58px;
+}
+.icbaselinePlusIcon {
+  position: absolute;
+  top: 14px;
+  left: 147px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.groupContainer,
+.max5QuestionsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 189px;
+  height: 58px;
+}
+.max5QuestionsParent {
+  width: 674px;
+}
+.text {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  font-weight: 500;
+}
+.groupIcon,
+.textParent {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.textParent {
+  top: 172px;
+  left: 188px;
+  width: 71px;
+  height: 30px;
+}
+.imageUrl3 {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  font-weight: 500;
+}
+.groupChild5,
+.imageUrlParent {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.imageUrlParent {
+  top: 172px;
+  left: 285px;
+  width: 136px;
+  height: 30px;
+  text-align: left;
+}
+.textImage {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  font-weight: 500;
+}
+.groupChild6 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.textImageUrlParent {
+  position: absolute;
+  top: 172px;
+  left: 447px;
+  width: 202px;
+  height: 30px;
+  text-align: left;
+}
+.groupParent,
+.optionTypeParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 674px;
+  height: 202px;
+  text-align: center;
+}
+.groupParent {
+  top: 43px;
+  left: 94px;
+  height: 582.3px;
+  text-align: left;
+  font-size: 20px;
+  color: #9f9f9f;
+  font-family: Poppins;
+}

@@ -1,0 +1,89 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 845px;
+  height: 481px;
+}
+.charmcrossIcon {
+  position: absolute;
+  top: 7px;
+  left: 785px;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
+}
+.congratsYourQuiz {
+  position: absolute;
+  top: 101px;
+  left: 197px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 502px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #60b84a;
+  width: 279px;
+  height: 46.1px;
+}
+.share {
+  position: absolute;
+  top: 8.6px;
+  left: 108px;
+  font-weight: 600;
+}
+.groupWrapper,
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 279px;
+  height: 46.1px;
+}
+.groupWrapper {
+  top: 360px;
+  left: 308px;
+  font-size: 21px;
+  color: #fff;
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #ededed;
+  width: 675px;
+  height: 60px;
+}
+.yourLinkIs {
+  position: absolute;
+  top: 15px;
+  left: 31px;
+  font-weight: 600;
+}
+.rectangleContainer,
+.rectangleParent {
+  position: absolute;
+  top: 256px;
+  left: 110px;
+  width: 675px;
+  height: 60px;
+  font-size: 25px;
+}
+.rectangleParent {
+  top: 176px;
+  left: 218px;
+  width: 845px;
+  height: 481px;
+  text-align: left;
+  font-size: 39px;
+  color: #474444;
+  font-family: Poppins;
+}

@@ -1,0 +1,106 @@
+.mainFRAMEChild {
+  width: 193px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 832px;
+  display: none;
+}
+.dashboard,
+.quizzie {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.quizzie {
+  margin: 0;
+  width: 171px;
+  height: 70px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dashboard {
+  height: 30px;
+  font-weight: 600;
+}
+.analyticsText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 30px 0 20px;
+}
+.sepImpressionsFrame {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.logout {
+  height: 30px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.dashboardText,
+.mainFRAME,
+.optionGroupFrames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.optionGroupFrames {
+  width: 164px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 23px 0;
+}
+.dashboardText,
+.mainFRAME {
+  text-align: left;
+  color: #474444;
+}
+.dashboardText {
+  margin: 0;
+  flex: 1;
+  gap: 56px 0;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.mainFRAME {
+  height: 832px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 17px 8px 16px 9px;
+  box-sizing: border-box;
+  gap: 224px 0;
+  font-size: 70px;
+  font-family: Jomhuria;
+}
+@media screen and (max-width: 1000px) {
+  .quizzie {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainFRAME {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quizzie {
+    font-size: 42px;
+  }
+  .dashboard,
+  .logout {
+    font-size: 16px;
+  }
+}

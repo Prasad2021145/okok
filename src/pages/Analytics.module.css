@@ -1,0 +1,985 @@
+.frameChild {
+  width: 193px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 832px;
+  display: none;
+}
+.dashboard,
+.quizzie {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.quizzie {
+  width: 171px;
+  height: 70px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dashboard {
+  height: 30px;
+  font-weight: 600;
+}
+.dashboardText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 30px 0 20px;
+}
+.frameItem {
+  height: 38px;
+  width: 176px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  display: none;
+}
+.analytics1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 3;
+}
+.rectangleGroup {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 55px 3px 28px;
+  z-index: 2;
+}
+.createQuiz {
+  margin: 0;
+  width: 159px;
+  height: 30px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 2;
+}
+.createQuizButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 56px 0;
+}
+.groupContainerChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.logout {
+  margin: 0;
+  height: 30px;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.groupContainer {
+  width: 164px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 23px 0;
+}
+.analyticsLabel,
+.groupContainer,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.analyticsLabel {
+  gap: 242px 0;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.rectangleParent {
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 17px 8px 16px 9px;
+  gap: 224px 0;
+  z-index: 1;
+}
+.frameInner {
+  align-self: stretch;
+  position: relative;
+  background-color: #ededed;
+  height: 832px;
+  display: none;
+}
+.quizAnalysis {
+  margin: 0;
+  height: 75px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.quizNameContainerChild {
+  height: 183px;
+  width: 181px;
+  position: absolute;
+  margin: 0 !important;
+  right: -119px;
+  bottom: -146px;
+  object-fit: contain;
+  z-index: 3;
+}
+.quizNameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.rectangleDiv {
+  height: 42px;
+  width: 257px;
+  position: relative;
+  border-radius: 5px 5px 5px 0;
+  background-color: #fff;
+  display: none;
+}
+.mditickCircle {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+  z-index: 1;
+}
+.linkCopiedTo {
+  width: calc(100% - 20px);
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 12px;
+  background-color: transparent;
+  height: 18px;
+  flex: 1;
+  position: relative;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+  min-width: 89px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.deleteQuizCircle {
+  width: 183px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 15px;
+}
+.logoutTextIcon {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupQuizMaterials,
+.quizAnalysisIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.groupQuizMaterials {
+  align-self: stretch;
+  height: 30px;
+  align-items: flex-end;
+  gap: 10px 0;
+}
+.quizAnalysisIcon {
+  flex: 1;
+  align-items: flex-start;
+  padding: 8px 0 0;
+}
+.charmcrossIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupDiv,
+.snoLabel,
+.snoLabelInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  align-self: stretch;
+  border-radius: 5px 5px 5px 0;
+  background-color: #fff;
+  flex-direction: row;
+  padding: 3px 10px 1px 1px;
+  gap: 35px;
+  z-index: 1;
+}
+.snoLabel,
+.snoLabelInner {
+  width: 257px;
+  flex-direction: column;
+  padding: 0 0 7px;
+  box-sizing: border-box;
+}
+.snoLabel {
+  width: 733px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 20px;
+  gap: 20px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: 50px;
+  color: #5076ff;
+  font-family: Poppins;
+}
+.sno {
+  color: #fff;
+}
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.sno {
+  margin: 0;
+}
+.sno12Container {
+  height: 359px;
+  width: 45px;
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.quizName {
+  margin: 0;
+  color: #f4f4f4;
+}
+.blankLine,
+.quiz1,
+.quiz2,
+.quiz3,
+.quiz4,
+.quiz5,
+.quiz6,
+.quiz7,
+.quiz8 {
+  margin: 0;
+}
+.quizNameQuizContainer {
+  height: 360px;
+  width: 89px;
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.uileditMaterialsFrameChild {
+  height: 35px;
+  width: 925px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1px;
+  right: -612px;
+  border-radius: 10px;
+  background-color: #5076ff;
+  z-index: 1;
+}
+.quizCardChild {
+  align-self: stretch;
+  width: 925px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #b3c4ff;
+  display: none;
+  max-width: 100%;
+}
+.materialSymbolsdeleteIcon,
+.materialSymbolsshareIcon,
+.uileditIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.editableFrame,
+.questionArea {
+  display: flex;
+  align-items: flex-start;
+}
+.editableFrame {
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 10px;
+}
+.questionArea {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 5px;
+}
+.questionWiseAnalysis {
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 3;
+}
+.frameChild1,
+.quizCard {
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.quizCard {
+  margin: 0 !important;
+  position: absolute;
+  top: 78px;
+  right: -608px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 156px 2px 479px;
+  gap: 0 44px;
+  z-index: 1;
+}
+.frameChild1 {
+  height: 39px;
+  width: 925px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.materialSymbolsdeleteIcon1,
+.materialSymbolsshareIcon1,
+.uileditIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.frameQuestion,
+.uileditShare {
+  display: flex;
+  align-items: flex-start;
+}
+.uileditShare {
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 10px;
+}
+.frameQuestion {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 3px;
+}
+.questionWiseAnalysis1 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 5;
+}
+.questionWiseAnalysisWrapper {
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameChild2,
+.rectangleParent1 {
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.rectangleParent1 {
+  margin: 0 !important;
+  position: absolute;
+  right: -608px;
+  bottom: 158px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 156px 2px 479px;
+  gap: 44px;
+  z-index: 1;
+}
+.frameChild2 {
+  height: 39px;
+  width: 925px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.materialSymbolsdeleteIcon2,
+.materialSymbolsshareIcon2,
+.uileditIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.uileditParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 10px;
+}
+.questionWiseAnalysis2 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 7;
+}
+.questionWiseAnalysisContainer {
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameChild3,
+.rectangleParent2 {
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.rectangleParent2 {
+  margin: 0 !important;
+  position: absolute;
+  right: -608px;
+  bottom: 79px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 156px 2px 479px;
+  gap: 44px;
+  z-index: 1;
+}
+.frameChild3 {
+  align-self: stretch;
+  width: 925px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.materialSymbolsdeleteIcon3,
+.materialSymbolsshareIcon3,
+.uileditIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.uileditGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 10px;
+}
+.questionWiseAnalysis3 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 2;
+}
+.rectangleParent3 {
+  margin: 0 !important;
+  position: absolute;
+  right: -608px;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: #b3c4ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 156px 0 479px;
+  gap: 44px;
+  z-index: 1;
+}
+.createdOn {
+  margin: 0;
+  color: #fff;
+}
+.blankLine1,
+.sep2023,
+.sep20231,
+.sep20232,
+.sep20233,
+.sep20234,
+.sep20235,
+.sep20236,
+.sep20237 {
+  margin: 0;
+}
+.createdOn01Container {
+  height: 360px;
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.uileditMaterialsFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 66px;
+  font-size: 13px;
+}
+.impression {
+  margin: 0;
+  color: #fff;
+}
+.k,
+.k1,
+.k2,
+.p10,
+.p11,
+.p12,
+.p8,
+.p9 {
+  margin: 0;
+}
+.impression345667Container {
+  height: 360px;
+  flex: 1;
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 60px;
+  z-index: 2;
+}
+.quizGroupFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 6px 0 0;
+  box-sizing: border-box;
+  gap: 0 29px;
+  min-width: 226px;
+  max-width: 100%;
+}
+.uileditIcon4,
+.uileditIcon5,
+.uileditIcon6,
+.uileditIcon7 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.questionControl,
+.uileditContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uileditContainer {
+  gap: 56px 0;
+}
+.questionControl {
+  padding: 0 0 7px;
+}
+.materialSymbolsdeleteIcon4,
+.materialSymbolsshareIcon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.materialSymbolsshareIcon4 {
+  left: 34px;
+}
+.materialSymbols {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+}
+.questionAnalysis {
+  width: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 6px;
+  box-sizing: border-box;
+}
+.questionWiseAnalysis4 {
+  height: 44px;
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.deleteShareButtons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.materialSymbolsdeleteIcon5,
+.materialSymbolsshareIcon5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.materialSymbolsshareIcon5 {
+  left: 34px;
+}
+.materialSymbolsdeleteParent {
+  height: 24px;
+  width: 58px;
+  position: relative;
+}
+.questionWiseAnalysis5 {
+  height: 44px;
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 4;
+}
+.deleteShareButtons1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.materialSymbolsdeleteIcon6,
+.materialSymbolsshareIcon6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.materialSymbolsshareIcon6 {
+  left: 34px;
+}
+.materialSymbolsdeleteGroup {
+  height: 24px;
+  width: 58px;
+  position: relative;
+}
+.questionWiseAnalysis6 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 6;
+}
+.deleteShareButtons2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.materialSymbolsdeleteIcon7,
+.materialSymbolsshareIcon7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.materialSymbolsshareIcon7 {
+  left: 34px;
+}
+.materialSymbolsdeleteContainer {
+  height: 24px;
+  width: 58px;
+  position: relative;
+}
+.questionWiseAnalysis7 {
+  position: relative;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  z-index: 8;
+}
+.deleteShareButtons3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.questionGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 39px 0;
+}
+.questionControlParent,
+.questionGroup,
+.questionStack {
+  display: flex;
+  justify-content: flex-start;
+}
+.questionControlParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 10px;
+}
+.questionStack {
+  width: 290px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 7px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+.quizNameFrame,
+.snoFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.quizNameFrame {
+  width: 752px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 35px;
+}
+.snoFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 163px 0 20px;
+  box-sizing: border-box;
+}
+.frameParent,
+.rectangleContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  flex: 1;
+  background-color: #ededed;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 60px 0 236px;
+  box-sizing: border-box;
+  gap: 101px 0;
+  max-width: calc(100% - 193px);
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Poppins;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: 70px;
+  color: #474444;
+  font-family: Jomhuria;
+}
+.createdOnIndicator {
+  width: 1107px;
+  height: 832px;
+  position: relative;
+  background-color: #ededed;
+  max-width: 100%;
+}
+.analytics {
+  width: 100%;
+  height: 832px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 169px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .rectangleContainer {
+    gap: 101px 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .quizzie {
+    font-size: 56px;
+  }
+  .editableFrame,
+  .quizCard,
+  .rectangleParent1,
+  .rectangleParent2,
+  .rectangleParent3,
+  .uileditGroup,
+  .uileditParent,
+  .uileditShare {
+    flex-wrap: wrap;
+  }
+  .quizNameFrame {
+    gap: 0 35px;
+  }
+  .snoFrame {
+    padding-right: 81px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    display: none;
+  }
+  .snoFrame {
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .rectangleContainer {
+    gap: 101px 0;
+    padding-top: 39px;
+    padding-bottom: 153px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frameParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .analytics {
+    height: auto;
+    gap: 169px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quizzie {
+    font-size: 42px;
+  }
+  .analytics1,
+  .createQuiz,
+  .dashboard,
+  .logout {
+    font-size: 16px;
+  }
+  .groupDiv {
+    gap: 35px;
+  }
+  .quizGroupFrame {
+    flex-wrap: wrap;
+  }
+  .questionGroup {
+    gap: 39px 0;
+  }
+  .analytics {
+    gap: 169px 0;
+  }
+}

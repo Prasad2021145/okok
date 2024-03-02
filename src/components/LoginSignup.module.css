@@ -1,0 +1,326 @@
+.containerFrameChild,
+.fRAMEAChild {
+  height: 832px;
+  width: 1280px;
+  position: relative;
+  background-color: #f2f2f2;
+  display: none;
+  max-width: 100%;
+}
+.fRAMEAChild {
+  width: 1066px;
+  height: 611px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+.quizzie {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: 100px;
+  font-weight: 400;
+  font-family: Jomhuria;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.quizFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 19px;
+}
+.signUp {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #474444;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameChild {
+  height: 37px;
+  width: 217px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 26, 255, 0.24);
+  display: none;
+}
+.logIn {
+  height: 30px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 4px 79px 3px 78px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 26, 255, 0.24);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangleParent:hover {
+  background-color: #e6e6e6;
+}
+.formFrame,
+.innerFrame,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+}
+.formFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.innerFrame {
+  width: 410px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 27px 0;
+  max-width: 100%;
+}
+.email,
+.passwordRectangle {
+  position: relative;
+  z-index: 2;
+}
+.email {
+  width: 53px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color: transparent;
+  height: 30px;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+}
+.passwordRectangle {
+  height: 38px;
+  flex: 1;
+  border-radius: 10px 10px 0 0;
+  background-color: #f4f4f4;
+  min-width: 252px;
+  max-width: 100%;
+}
+.inputFrame {
+  width: 476px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 35px;
+  max-width: 100%;
+}
+.password {
+  width: 96px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.inputFrameChild {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  background-color: #f4f4f4;
+  min-width: 252px;
+  max-width: 100%;
+  z-index: 2;
+}
+.emailPasswordFrame,
+.inputFrame1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputFrame1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 34px;
+}
+.emailPasswordFrame {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 31px 0;
+}
+.loginFrameChild {
+  height: 38px;
+  width: 274px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #a9bcff;
+  display: none;
+}
+.logIn1 {
+  height: 30px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.loginFrame {
+  cursor: pointer;
+  border: 0;
+  padding: 4px;
+  background-color: #a9bcff;
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.loginFrame:hover {
+  background-color: #758acc;
+}
+.emailInputFrame,
+.fRAMEA,
+.logInText {
+  display: flex;
+  justify-content: flex-start;
+}
+.logInText {
+  width: 298px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 24px 0 0;
+  box-sizing: border-box;
+}
+.emailInputFrame,
+.fRAMEA {
+  width: 518px;
+  flex-direction: column;
+  align-items: center;
+  gap: 59px 0;
+  max-width: 100%;
+}
+.fRAMEA {
+  margin: 0;
+  width: 1066px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  padding: 41px 41px 115px;
+  box-sizing: border-box;
+  gap: 87px 0;
+  z-index: 1;
+}
+.containerFrame {
+  align-self: stretch;
+  background-color: #f2f2f2;
+  flex-direction: row;
+  justify-content: center;
+  padding: 96px 38px 96px 20px;
+  min-height: 832px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.containerFrame,
+.loginSignup,
+.signUpFrame {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.signUpFrame {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+}
+.loginSignup {
+  width: 1280px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 149px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .quizzie {
+    font-size: 50px;
+  }
+  .containerFrame {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .inputFrame {
+    gap: 0 35px;
+  }
+  .inputFrame1 {
+    gap: 0 34px;
+  }
+  .emailPasswordFrame {
+    gap: 31px 0;
+  }
+  .emailInputFrame {
+    gap: 59px 0;
+  }
+  .fRAMEA {
+    gap: 87px 0;
+    padding-top: 27px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quizzie {
+    font-size: 30px;
+  }
+  .email,
+  .password {
+    font-size: 16px;
+  }
+  .fRAMEA {
+    gap: 87px 0;
+  }
+  .containerFrame {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+}

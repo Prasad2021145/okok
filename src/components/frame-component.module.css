@@ -1,0 +1,88 @@
+.quizzie {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.quizzieLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 20px;
+}
+.frameChild {
+  height: 37px;
+  width: 217px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 26, 255, 0.24);
+  display: none;
+}
+.signUp {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.logIn,
+.rectangleParent {
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangleParent {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 26, 255, 0.24);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 3px 62px 4px 78px;
+}
+.logIn {
+  height: 30px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.quizzieLabelParent {
+  width: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 31px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 100px;
+  color: #474444;
+  font-family: Jomhuria;
+}
+@media screen and (max-width: 800px) {
+  .quizzie {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quizzie {
+    font-size: 30px;
+  }
+  .quizzieLabelParent {
+    gap: 31px 0;
+  }
+}

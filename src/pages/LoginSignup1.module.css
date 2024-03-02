@@ -1,0 +1,313 @@
+.frameChild,
+.frameItem {
+  height: 832px;
+  width: 1280px;
+  position: relative;
+  background-color: #f2f2f2;
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  width: 1066px;
+  height: 611px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+.frameInner,
+.name {
+  position: relative;
+  z-index: 2;
+}
+.name {
+  width: 59px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color: transparent;
+  height: 30px;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+}
+.frameInner {
+  height: 38px;
+  flex: 1;
+  border-radius: 10px 10px 0 0;
+  background-color: #f4f4f4;
+  min-width: 252px;
+  max-width: 100%;
+}
+.nameParent {
+  width: 481px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 34px;
+  max-width: 100%;
+}
+.email,
+.rectangleDiv {
+  position: relative;
+  z-index: 2;
+}
+.email {
+  width: 53px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color: transparent;
+  height: 30px;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+}
+.rectangleDiv {
+  height: 38px;
+  flex: 1;
+  border-radius: 10px 10px 0 0;
+  background-color: #f4f4f4;
+  min-width: 252px;
+  max-width: 100%;
+}
+.emailParent {
+  width: 476px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 35px;
+  max-width: 100%;
+}
+.frameChild1,
+.password {
+  position: relative;
+  z-index: 2;
+}
+.password {
+  width: 96px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color: transparent;
+  height: 30px;
+  color: #474444;
+  text-align: left;
+  display: inline-block;
+}
+.frameChild1 {
+  height: 38px;
+  flex: 1;
+  border-radius: 10px 10px 0 0;
+  background-color: #f4f4f4;
+  min-width: 252px;
+  max-width: 100%;
+}
+.passwordParent {
+  width: 518px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 34px;
+  max-width: 100%;
+}
+.confirmPassword {
+  width: 187px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  color: #474444;
+  text-align: right;
+  display: inline-block;
+  z-index: 2;
+}
+.frameChild2 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  background-color: #f4f4f4;
+  min-width: 252px;
+  max-width: 100%;
+  z-index: 2;
+}
+.confirmPasswordParent,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.confirmPasswordParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 31px;
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 31px 0;
+}
+.frameChild3 {
+  height: 38px;
+  width: 274px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #a9bcff;
+  display: none;
+}
+.signUp {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #474444;
+  text-align: left;
+  z-index: 3;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 4px 22px 4px 20px;
+  background-color: #a9bcff;
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.rectangleContainer:hover {
+  background-color: #758acc;
+}
+.frameWrapper {
+  width: 308px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 34px 0 0;
+  box-sizing: border-box;
+}
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  margin: 0;
+  width: 606px;
+  gap: 38px 0;
+}
+.rectangleGroup {
+  width: 1066px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  padding: 41px 23px 23px;
+  box-sizing: border-box;
+  gap: 58px 0;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: #f2f2f2;
+  flex-direction: row;
+  justify-content: center;
+  padding: 96px 38px 96px 20px;
+  min-height: 832px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.loginSignup,
+.loginSignupInner,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.loginSignupInner {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+}
+.loginSignup {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 149px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .rectangleParent {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .nameParent {
+    gap: 0 34px;
+  }
+  .emailParent {
+    gap: 0 35px;
+  }
+  .passwordParent {
+    gap: 0 34px;
+  }
+  .confirmPasswordParent {
+    gap: 0 31px;
+  }
+  .frameGroup {
+    gap: 31px 0;
+  }
+  .frameParent {
+    gap: 38px 0;
+  }
+  .rectangleGroup {
+    gap: 58px 0;
+    padding-top: 27px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .confirmPassword,
+  .email,
+  .name,
+  .password,
+  .signUp {
+    font-size: 16px;
+  }
+  .rectangleParent {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+}

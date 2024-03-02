@@ -1,0 +1,69 @@
+.emptyFrame,
+.s {
+  position: relative;
+  display: inline-block;
+}
+.emptyFrame {
+  width: 78px;
+}
+.s {
+  height: 38px;
+  color: #d60000;
+}
+.pollQuizFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 1px;
+  text-align: left;
+  font-size: 25px;
+  color: #474444;
+  font-family: Poppins;
+}
+.frameChild {
+  height: 32.9px;
+  width: 188px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #60b84a;
+  display: none;
+}
+.submit {
+  height: 30px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.pollQuiz,
+.rectangleParent {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 1px 59px 1px 57px;
+  background-color: #60b84a;
+  height: 33px;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+.pollQuiz {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 37px 20px 139px;
+  gap: 60px 0;
+}

@@ -1,0 +1,73 @@
+.frameChild,
+.frameWithTextChild {
+  position: relative;
+  border-radius: 10px;
+  display: none;
+}
+.frameChild {
+  height: 224.5px;
+  width: 332px;
+  background-color: #f0f0f0;
+}
+.frameWithTextChild {
+  height: 195px;
+  width: 305px;
+  object-fit: cover;
+  z-index: 0;
+}
+.rectangleGroup {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% - 1px);
+  top: 0;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  border-radius: 11px;
+  background: linear-gradient(167.36deg, #000, transparent);
+  z-index: 2;
+}
+.sampleImage {
+  height: 29.8px;
+  width: 183.4px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frameWithText {
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 14px 156px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 15px 14px 14px 12px;
+}
+.frameWrapper {
+  align-self: stretch;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: Poppins;
+}

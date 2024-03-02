@@ -1,0 +1,96 @@
+.questionTextFrame {
+  width: 71px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px;
+}
+.yourQuestionText {
+  margin: 0;
+  align-self: stretch;
+  height: 142px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameGroup,
+.yourQuestion {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-items: flex-start;
+  padding: 0 10px 1px 9px;
+  gap: 20px;
+}
+.yourQuestion {
+  align-items: center;
+  gap: 21px 0;
+}
+.frameChild {
+  height: 32.9px;
+  width: 188px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #60b84a;
+  display: none;
+}
+.next {
+  height: 30px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 33px;
+  border-radius: 10px;
+  background-color: #60b84a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 68px 0 69px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+}
+.pollQuizImageText,
+.questionFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #474444;
+  font-family: Poppins;
+}
+.questionFrame {
+  align-self: stretch;
+  padding: 0 1px;
+  gap: 44px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.pollQuizImageText {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 37px 20px;
+  box-sizing: border-box;
+  gap: 60px 0;
+  text-align: left;
+  font-size: 25px;
+}

@@ -1,0 +1,89 @@
+.createdFrameChild {
+  width: 1087px;
+  height: 832px;
+  position: relative;
+  background-color: #ededed;
+  display: none;
+  max-width: 100%;
+}
+.createdFrame,
+.fRAMEParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.createdFrame {
+  flex: 1;
+  background-color: #ededed;
+  flex-direction: column;
+  align-items: center;
+  padding: 121px 20px 103px;
+  box-sizing: border-box;
+  gap: 105px 0;
+  max-width: calc(100% - 193px);
+}
+.fRAMEParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.dashboardChild {
+  width: 1107px;
+  height: 832px;
+  position: relative;
+  background-color: #ededed;
+  max-width: 100%;
+}
+.dashboard {
+  width: 100%;
+  height: 980px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 169px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .createdFrame {
+    gap: 105px 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .createdFrame {
+    padding-top: 79px;
+    padding-bottom: 67px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .fRAMEParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .dashboard {
+    height: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .createdFrame {
+    gap: 105px 0;
+  }
+  .dashboard {
+    gap: 169px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .createdFrame {
+    padding-top: 51px;
+    padding-bottom: 44px;
+    box-sizing: border-box;
+  }
+  .dashboard {
+    gap: 169px 0;
+  }
+}

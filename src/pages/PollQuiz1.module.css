@@ -1,0 +1,27 @@
+.forParticipatingIn,
+.thankYou {
+  margin: 0;
+}
+.thankYouForContainer {
+  height: 153px;
+  position: relative;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: Poppins;
+  color: #474444;
+  text-align: center;
+  display: inline-block;
+}
+.pollQuiz {
+  width: 100%;
+  height: 852px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 349px 20px 350px;
+  box-sizing: border-box;
+}

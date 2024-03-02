@@ -1,0 +1,109 @@
+.imageGroupChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: none;
+}
+.sampleImage {
+  height: 36px;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 30px 72px 30px 73px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameItem {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  display: none;
+}
+.sampleImage1 {
+  height: 36px;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.frameInner,
+.rectangleGroup {
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 30px 72px 30px 73px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameInner {
+  height: 96px;
+  width: 324px;
+  position: relative;
+  display: none;
+}
+.sampleImage2 {
+  height: 36px;
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 30px 72px 30px 73px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imageGroup {
+  width: 324px;
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+}

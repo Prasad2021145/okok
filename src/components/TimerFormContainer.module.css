@@ -1,0 +1,94 @@
+.groupChild,
+.timer {
+  position: absolute;
+  top: 0;
+}
+.timer {
+  left: 19px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.groupChild {
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  width: 95px;
+  height: 34px;
+}
+.off {
+  position: absolute;
+  top: 6px;
+  left: 34px;
+  font-weight: 500;
+}
+.rectangleParent {
+  top: 41px;
+  left: 0;
+  width: 95px;
+  height: 34px;
+}
+.groupItem,
+.rectangleParent,
+.sec {
+  position: absolute;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  width: 95px;
+  height: 34px;
+}
+.sec {
+  top: 5px;
+  left: 28px;
+  font-weight: 500;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 95px;
+  height: 34px;
+}
+.groupInner {
+  top: 0;
+  border-radius: 10px;
+  background-color: #d60000;
+}
+.sec1 {
+  position: absolute;
+  top: 6px;
+  left: 25px;
+  font-weight: 500;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 15px rgba(255, 75, 75, 0.36);
+  width: 95px;
+  height: 34px;
+}
+.groupWrapper,
+.timerParent {
+  position: absolute;
+  top: 149px;
+  left: 0;
+  width: 95px;
+  height: 34px;
+  color: #fff;
+}
+.timerParent {
+  top: 426px;
+  left: 864px;
+  height: 183px;
+  text-align: center;
+  font-size: 15px;
+  color: #9f9f9f;
+  font-family: Poppins;
+}

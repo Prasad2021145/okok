@@ -1,0 +1,345 @@
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 845px;
+  height: 671px;
+}
+.groupItem {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  width: 279px;
+  height: 46.1px;
+}
+.cancel {
+  position: absolute;
+  top: 7px;
+  left: 101px;
+  font-weight: 600;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  left: 0;
+  width: 279px;
+  height: 46.1px;
+}
+.rectangleGroup {
+  top: 536.1px;
+  font-size: 21px;
+  color: #474444;
+}
+.groupInner {
+  top: 0;
+  border-radius: 10px;
+  background-color: #60b84a;
+}
+.createQuiz {
+  position: absolute;
+  top: 8.6px;
+  left: 90px;
+  font-weight: 600;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 536px;
+  left: 369px;
+  width: 279px;
+  height: 46.1px;
+  font-size: 21px;
+  color: #fff;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 296px;
+  height: 50px;
+}
+.text {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  font-weight: 500;
+}
+.groupChild1,
+.groupDiv {
+  position: absolute;
+  top: 235px;
+  left: 0;
+  width: 296px;
+  height: 50px;
+}
+.groupChild1 {
+  top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.text1 {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  font-weight: 500;
+}
+.groupChild2,
+.rectangleParent1 {
+  position: absolute;
+  top: 301px;
+  left: 0;
+  width: 296px;
+  height: 50px;
+}
+.groupChild2 {
+  top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+.materialSymbolsdeleteIcon {
+  position: absolute;
+  top: 15px;
+  left: 330px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.text2 {
+  position: absolute;
+  top: 9px;
+  left: 16px;
+  font-weight: 500;
+}
+.groupChild3,
+.rectangleParent2 {
+  position: absolute;
+  top: 367px;
+  left: 0;
+  width: 354px;
+  height: 50px;
+}
+.groupChild3 {
+  top: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 296px;
+}
+.materialSymbolsdeleteIcon1 {
+  position: absolute;
+  top: 15px;
+  left: 330px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.text3 {
+  position: absolute;
+  top: 9px;
+  left: 16px;
+  font-weight: 500;
+}
+.rectangleParent3 {
+  position: absolute;
+  top: 433px;
+  left: 0;
+  width: 354px;
+  height: 50px;
+}
+.optionType {
+  position: absolute;
+  top: 172px;
+  left: 18px;
+  font-weight: 500;
+}
+.groupChild4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 673px;
+  height: 50px;
+}
+.pollQuestion {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  font-weight: 500;
+}
+.rectangleParent4 {
+  position: absolute;
+  top: 94px;
+  left: 0;
+  width: 673px;
+  height: 50px;
+}
+.max5Questions {
+  position: absolute;
+  top: 14px;
+  left: 510px;
+  font-weight: 500;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 58px;
+  height: 58px;
+}
+.div {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  font-weight: 500;
+}
+.ellipseParent,
+.groupChild5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 58px;
+}
+.groupChild5 {
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.charmcrossIcon {
+  position: absolute;
+  top: 0;
+  left: 43px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.div1 {
+  position: absolute;
+  top: 14px;
+  left: 23px;
+  font-weight: 500;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 0;
+  left: 78px;
+  width: 58px;
+  height: 58px;
+}
+.icbaselinePlusIcon {
+  position: absolute;
+  top: 14px;
+  left: 147px;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.groupContainer,
+.max5QuestionsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 189px;
+  height: 58px;
+}
+.max5QuestionsParent {
+  width: 674px;
+}
+.text4 {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  font-weight: 500;
+}
+.groupIcon,
+.textParent {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.textParent {
+  top: 172px;
+  left: 188px;
+  width: 71px;
+  height: 30px;
+}
+.imageUrl {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  font-weight: 500;
+}
+.groupChild6,
+.imageUrlParent {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.imageUrlParent {
+  top: 172px;
+  left: 285px;
+  width: 136px;
+  height: 30px;
+  text-align: left;
+}
+.textImage {
+  position: absolute;
+  top: 0;
+  left: 29px;
+  font-weight: 500;
+}
+.groupChild7 {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 19px;
+  height: 19px;
+}
+.textImageUrlParent {
+  position: absolute;
+  top: 172px;
+  left: 447px;
+  width: 202px;
+  height: 30px;
+  text-align: left;
+}
+.optionTypeParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 674px;
+  height: 202px;
+  text-align: center;
+}
+.groupParent,
+.rectangleParent {
+  position: absolute;
+  top: 43px;
+  left: 94px;
+  width: 674px;
+  height: 582.3px;
+}
+.rectangleParent {
+  top: 83px;
+  left: 217px;
+  width: 845px;
+  height: 671px;
+  text-align: left;
+  font-size: 20px;
+  color: #9f9f9f;
+  font-family: Poppins;
+}

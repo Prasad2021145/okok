@@ -1,0 +1,159 @@
+.q1QuestionPlace {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.incorrectPeopleChild {
+  width: 245px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fff;
+  height: 89px;
+  display: none;
+}
+.createdFrame {
+  height: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.peopleAttemptedThe {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 3;
+}
+.incorrectPeople {
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 11px 11px;
+  z-index: 1;
+}
+.impressionsPeopleChild {
+  width: 245px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fff;
+  height: 89px;
+  display: none;
+}
+.createdSep {
+  height: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.peopleAnsweredCorrectly {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 3;
+}
+.impressionsPeople {
+  flex: 1;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11px 11px 12px;
+  box-sizing: border-box;
+  min-width: 159px;
+  z-index: 1;
+}
+.questionAnalysisChild {
+  width: 245px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fff;
+  height: 89px;
+  display: none;
+}
+.questionPlaceholder1 {
+  height: 45px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.questionPlaceholderWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 15px 0 0;
+}
+.peopleAnsweredIncorrectly {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 3;
+}
+.questionAnalysis {
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11px 15px 12px 26px;
+  z-index: 1;
+}
+.correctPeople,
+.questionPlaceholder {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.correctPeople {
+  width: 805px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0 35px;
+  color: #474444;
+}
+.questionPlaceholder {
+  width: 828px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px 0;
+  min-height: 168px;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1000px) {
+  .createdFrame,
+  .createdSep,
+  .q1QuestionPlace,
+  .questionPlaceholder1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .createdFrame,
+  .createdSep,
+  .q1QuestionPlace,
+  .questionPlaceholder1 {
+    font-size: 18px;
+  }
+  .correctPeople {
+    gap: 0 35px;
+  }
+  .questionPlaceholder {
+    gap: 33px 0;
+  }
+}

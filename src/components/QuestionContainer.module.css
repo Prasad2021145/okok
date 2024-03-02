@@ -1,0 +1,171 @@
+.yourQuestionText {
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.frameChild,
+.frameItem {
+  width: 324px;
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 159px;
+  z-index: 2;
+}
+.frameItem {
+  height: 159px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: none;
+}
+.sampleImage {
+  height: 57.7px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.frameGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  height: 160px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  justify-content: center;
+  padding: 45px 32px 45px 28px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameInner {
+  height: 159px;
+  width: 324px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: none;
+  max-width: 100%;
+}
+.sampleImage1 {
+  height: 57.7px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleDiv,
+.rectangleGroup {
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  max-width: 100%;
+}
+.rectangleGroup {
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 45px 32px 45px 28px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangleDiv {
+  height: 159px;
+  width: 324px;
+  position: relative;
+  display: none;
+}
+.sampleImage2 {
+  height: 57.7px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.frameContainer,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  height: 160px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  justify-content: center;
+  padding: 45px 32px 45px 28px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameParent,
+.sampleImages,
+.yourQuestion {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px 0;
+}
+.sampleImages,
+.yourQuestion {
+  box-sizing: border-box;
+}
+.sampleImages {
+  width: 928px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 30px 0 0;
+  font-size: 35px;
+  color: #000;
+}
+.yourQuestion {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 23px;
+  gap: 24px 0;
+  text-align: left;
+  font-size: 40px;
+  color: #474444;
+  font-family: Poppins;
+}
+@media screen and (max-width: 825px) {
+  .yourQuestionText {
+    font-size: 32px;
+  }
+  .frameContainer,
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourQuestionText {
+    font-size: 24px;
+  }
+}

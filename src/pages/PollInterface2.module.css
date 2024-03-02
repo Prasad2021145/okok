@@ -1,0 +1,91 @@
+.frameChild,
+.frameItem {
+  height: 848px;
+  width: 1280px;
+  position: relative;
+  background-color: #041325;
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  height: 643px;
+  width: 1066px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+.forParticipatingIn,
+.thankYou {
+  margin: 0;
+}
+.thankYouForContainer {
+  height: 333px;
+  width: 824px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.rectangleGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  width: 1066px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  align-items: flex-end;
+  padding: 149px 20px 149px 38px;
+  z-index: 1;
+  text-align: center;
+  font-size: 74px;
+  color: #474444;
+  font-family: Poppins;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: #041325;
+  align-items: center;
+  padding: 96px 38px 96px 20px;
+  flex-shrink: 0;
+}
+.pollInterface {
+  width: 100%;
+  height: 832px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .thankYouForContainer {
+    font-size: 59px;
+  }
+  .rectangleParent {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .rectangleGroup {
+    padding-top: 97px;
+    padding-bottom: 97px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thankYouForContainer {
+    font-size: 44px;
+  }
+}

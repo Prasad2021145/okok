@@ -1,0 +1,84 @@
+.frameChild {
+  width: 181px;
+  height: 62px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fff;
+  display: none;
+}
+.createdOnLabel,
+.quiz1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.quiz1 {
+  margin: 0;
+  height: 35px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.createdOnLabel {
+  height: 23px;
+}
+.iconParkOutlineeyes {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.quizIcon,
+.quizIconframe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.quizIcon {
+  justify-content: flex-start;
+  gap: 0 8px;
+  font-size: 15px;
+  color: #ff5d01;
+}
+.quizIconframe {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 5px;
+  gap: 20px;
+}
+.createdOn {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.frameContainer,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 22px 0 5px;
+  font-size: 11px;
+  color: #60b84a;
+}
+.rectangleParent {
+  width: 181px;
+  border-radius: 5px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: 23px;
+  color: #474444;
+  font-family: Poppins;
+}
+@media screen and (max-width: 450px) {
+  .quiz1 {
+    font-size: 18px;
+  }
+}

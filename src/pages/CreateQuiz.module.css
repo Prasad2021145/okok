@@ -1,0 +1,147 @@
+.createQuizChild {
+  position: absolute;
+  top: 0;
+  left: 193px;
+  background-color: #ededed;
+  width: 1087px;
+  height: 832px;
+}
+.quizAnalysis {
+  position: absolute;
+  top: 60px;
+  left: 567px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #5076ff;
+}
+.createQuizInner,
+.createQuizItem {
+  position: absolute;
+  top: 1001px;
+  left: 0;
+  background-color: #ededed;
+  width: 1087px;
+  height: 832px;
+}
+.createQuizInner {
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 193px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 763px;
+  left: 34px;
+  max-height: 100%;
+  width: 124px;
+}
+.quizzie {
+  position: absolute;
+  top: 17px;
+  left: 31px;
+  font-size: 70px;
+  font-family: Jomhuria;
+}
+.logout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+}
+.logoutWrapper {
+  position: absolute;
+  top: 786px;
+  left: 55px;
+  width: 83px;
+  height: 30px;
+}
+.groupChild,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleDiv {
+  background-color: rgba(0, 0, 0, 0.81);
+  width: 1280px;
+  height: 832px;
+}
+.groupChild {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 673px;
+  height: 81px;
+}
+.quizName {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  font-weight: 500;
+}
+.rectangleParent {
+  position: absolute;
+  top: 364px;
+  left: 304px;
+  width: 673px;
+  height: 81px;
+  text-align: center;
+  font-size: 25px;
+  color: #9f9f9f;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 1px;
+  left: 477px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  width: 171px;
+  height: 46px;
+}
+.groupInner {
+  top: 0;
+  left: 206px;
+}
+.pollType,
+.qA,
+.quizType {
+  position: absolute;
+  font-weight: 500;
+}
+.quizType {
+  top: 3px;
+  left: 0;
+  font-size: 25px;
+}
+.pollType,
+.qA {
+  top: 8px;
+  left: 259px;
+}
+.pollType {
+  top: 9px;
+  left: 517px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 466px;
+  left: 316px;
+  width: 648px;
+  height: 47px;
+  text-align: center;
+  color: #9f9f9f;
+}
+.createQuiz {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #474444;
+  font-family: Poppins;
+}

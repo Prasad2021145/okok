@@ -1,0 +1,437 @@
+.groupChild {
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  border-radius: 10px;
+  background-color: #5076ff;
+  width: 925px;
+  height: 35px;
+}
+.groupItem {
+  top: 80px;
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.groupInner,
+.groupItem,
+.rectangleDiv,
+.rectangleWrapper {
+  position: absolute;
+  left: 0;
+  width: 925px;
+  height: 39px;
+}
+.groupInner {
+  top: 0;
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.rectangleDiv,
+.rectangleWrapper {
+  top: 163px;
+}
+.rectangleDiv {
+  top: 0;
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.rectangleContainer {
+  top: 242px;
+}
+.groupChild1,
+.rectangleContainer,
+.rectangleFrame {
+  position: absolute;
+  left: 0;
+  width: 925px;
+  height: 39px;
+}
+.groupChild1 {
+  top: 0;
+  border-radius: 10px;
+  background-color: #b3c4ff;
+}
+.rectangleFrame {
+  top: 321px;
+}
+.materialSymbolsdeleteIcon,
+.materialSymbolsshareIcon,
+.uileditIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon,
+.materialSymbolsshareIcon {
+  left: 34px;
+}
+.materialSymbolsshareIcon {
+  left: 68px;
+}
+.uileditParent {
+  position: absolute;
+  top: 48px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon1,
+.materialSymbolsshareIcon1,
+.uileditIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon1,
+.materialSymbolsshareIcon1 {
+  left: 34px;
+}
+.materialSymbolsshareIcon1 {
+  left: 68px;
+}
+.uileditGroup {
+  position: absolute;
+  top: 88px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon2,
+.materialSymbolsshareIcon2,
+.uileditIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon2,
+.materialSymbolsshareIcon2 {
+  left: 34px;
+}
+.materialSymbolsshareIcon2 {
+  left: 68px;
+}
+.uileditContainer {
+  position: absolute;
+  top: 128px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon3,
+.materialSymbolsshareIcon3,
+.uileditIcon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon3,
+.materialSymbolsshareIcon3 {
+  left: 34px;
+}
+.materialSymbolsshareIcon3 {
+  left: 68px;
+}
+.groupDiv {
+  position: absolute;
+  top: 168px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon4,
+.materialSymbolsshareIcon4,
+.uileditIcon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon4,
+.materialSymbolsshareIcon4 {
+  left: 34px;
+}
+.materialSymbolsshareIcon4 {
+  left: 68px;
+}
+.uileditParent1 {
+  position: absolute;
+  top: 208px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon5,
+.materialSymbolsshareIcon5,
+.uileditIcon5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon5,
+.materialSymbolsshareIcon5 {
+  left: 34px;
+}
+.materialSymbolsshareIcon5 {
+  left: 68px;
+}
+.uileditParent2 {
+  position: absolute;
+  top: 248px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon6,
+.materialSymbolsshareIcon6,
+.uileditIcon6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon6,
+.materialSymbolsshareIcon6 {
+  left: 34px;
+}
+.materialSymbolsshareIcon6 {
+  left: 68px;
+}
+.uileditParent3 {
+  position: absolute;
+  top: 288px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.materialSymbolsdeleteIcon7,
+.materialSymbolsshareIcon7,
+.uileditIcon7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.materialSymbolsdeleteIcon7,
+.materialSymbolsshareIcon7 {
+  left: 34px;
+}
+.materialSymbolsshareIcon7 {
+  left: 68px;
+}
+.uileditParent4 {
+  position: absolute;
+  top: 328px;
+  left: 462px;
+  width: 92px;
+  height: 24px;
+}
+.questionWiseAnalysis {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 154px;
+  height: 44px;
+}
+.questionWiseAnalysis1,
+.questionWiseAnalysis2,
+.questionWiseAnalysis3,
+.questionWiseAnalysis4,
+.questionWiseAnalysis5,
+.questionWiseAnalysis6 {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  text-decoration: underline;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 154px;
+  height: 39px;
+}
+.questionWiseAnalysis2,
+.questionWiseAnalysis3,
+.questionWiseAnalysis4,
+.questionWiseAnalysis5,
+.questionWiseAnalysis6 {
+  top: 127px;
+}
+.questionWiseAnalysis3,
+.questionWiseAnalysis4,
+.questionWiseAnalysis5,
+.questionWiseAnalysis6 {
+  top: 166px;
+  height: 40px;
+}
+.questionWiseAnalysis4,
+.questionWiseAnalysis5,
+.questionWiseAnalysis6 {
+  top: 206px;
+  height: 39px;
+}
+.questionWiseAnalysis5,
+.questionWiseAnalysis6 {
+  top: 245px;
+  height: 40px;
+}
+.questionWiseAnalysis6 {
+  top: 287px;
+  height: 39px;
+}
+.questionWiseAnalysisParent {
+  position: absolute;
+  top: 34px;
+  left: 598px;
+  width: 154px;
+  height: 326px;
+}
+.sno {
+  color: #fff;
+}
+.p,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.sno {
+  margin: 0;
+}
+.sno12345678Wrapper,
+.sno12Container {
+  position: absolute;
+  left: 0;
+  width: 45px;
+  height: 359px;
+}
+.sno12Container {
+  top: 0;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+}
+.sno12345678Wrapper {
+  top: 1px;
+}
+.quizName {
+  margin: 0;
+  color: #f4f4f4;
+}
+.blankLine,
+.quiz1,
+.quiz2,
+.quiz3,
+.quiz4,
+.quiz5,
+.quiz6,
+.quiz7,
+.quiz8 {
+  margin: 0;
+}
+.quizNameQuizContainer {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 89px;
+  height: 360px;
+}
+.createdOn {
+  margin: 0;
+  color: #fff;
+}
+.blankLine1,
+.sep2023,
+.sep20231,
+.sep20232,
+.sep20233,
+.sep20234,
+.sep20235,
+.sep20236,
+.sep20237 {
+  margin: 0;
+}
+.createdOn01Container {
+  position: absolute;
+  top: 0;
+  left: 198px;
+  line-height: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 102px;
+  height: 360px;
+}
+.impression {
+  margin: 0;
+  color: #fff;
+}
+.k,
+.k1,
+.k2,
+.p10,
+.p11,
+.p12,
+.p8,
+.p9 {
+  margin: 0;
+}
+.impression345667Container {
+  position: absolute;
+  top: 0;
+  left: 330px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.groupContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 422px;
+  height: 360px;
+  font-size: 16px;
+}
+.groupParent,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 752px;
+  height: 360px;
+}
+.rectangleParent {
+  top: 236px;
+  left: 272px;
+  width: 929px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+  font-family: Poppins;
+}

@@ -1,0 +1,77 @@
+.createQuizOnContinueImageChild {
+  position: absolute;
+  top: 0;
+  left: 193px;
+  background-color: #ededed;
+  width: 1087px;
+  height: 832px;
+}
+.quizAnalysis {
+  position: absolute;
+  top: 60px;
+  left: 567px;
+  font-weight: 600;
+  color: #5076ff;
+}
+.createQuizOnContinueImageInner,
+.createQuizOnContinueImageItem {
+  position: absolute;
+  top: 1001px;
+  left: 0;
+  background-color: #ededed;
+  width: 1087px;
+  height: 832px;
+}
+.createQuizOnContinueImageInner {
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 193px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 763px;
+  left: 34px;
+  max-height: 100%;
+  width: 124px;
+}
+.quizzie {
+  position: absolute;
+  top: 17px;
+  left: 31px;
+  font-size: 70px;
+  font-family: Jomhuria;
+}
+.logout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+}
+.logoutWrapper {
+  position: absolute;
+  top: 786px;
+  left: 55px;
+  width: 83px;
+  height: 30px;
+  font-size: 20px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.81);
+  width: 1280px;
+  height: 832px;
+}
+.createQuizOnContinueImage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 50px;
+  color: #474444;
+  font-family: Poppins;
+}

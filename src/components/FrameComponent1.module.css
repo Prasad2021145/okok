@@ -1,0 +1,300 @@
+.frameContainingCreatedQuizChild {
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  display: none;
+}
+.textNodeWith {
+  align-self: stretch;
+  height: 66px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameWithQuestionsInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 11px;
+}
+.quiz {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.quizFrame {
+  width: 151px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 18px;
+}
+.created {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.quiz1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 18px 0 0;
+  font-size: 30px;
+}
+.frameContainingCreatedQuiz,
+.frameContainingQuizQuestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameContainingCreatedQuiz {
+  align-self: stretch;
+  border-radius: 10px;
+  background-color: #fff;
+  align-items: center;
+  padding: 2px 2px 13px;
+  gap: 8px 0;
+  z-index: 1;
+}
+.frameContainingQuizQuestion {
+  flex: 0.9672;
+  align-items: flex-start;
+  padding: 5px 10px 0 0;
+  box-sizing: border-box;
+  min-width: 229px;
+}
+.groupQuizIconsChild {
+  width: 295px;
+  height: 145px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  display: none;
+  z-index: 1;
+}
+.questions,
+.quiz2 {
+  height: 90px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.questions {
+  margin: 0;
+  height: 45px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.createdOnLabel,
+.totalImpressionsText {
+  display: flex;
+  justify-content: flex-start;
+}
+.totalImpressionsText {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 12px;
+  font-size: 30px;
+}
+.createdOnLabel {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 10px;
+}
+.created1 {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.quizCreatorFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -10px;
+  font-size: 30px;
+}
+.groupQuizIcons,
+.groupQuizIconsItem {
+  border-radius: 10px;
+  background-color: #fff;
+  z-index: 1;
+}
+.groupQuizIcons {
+  flex: 0.8271;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 26px 10px 25px;
+  box-sizing: border-box;
+  min-width: 221px;
+  color: #60b84a;
+}
+.groupQuizIconsItem {
+  width: 100%;
+  height: 145px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.k,
+.total {
+  height: 90px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.total {
+  margin: 0;
+  height: 45px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.createdKText,
+.kParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.createdKText {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 12px;
+  font-size: 30px;
+}
+.kParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 9px;
+}
+.impressions {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.impressionsCount {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 15px 0 0;
+  margin-top: -12px;
+  font-size: 30px;
+}
+.groupQuizIcons1,
+.impressionsCount,
+.trendingQuizzesText {
+  display: flex;
+  justify-content: flex-start;
+}
+.groupQuizIcons1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 27px;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 221px;
+  color: #5076ff;
+}
+.trendingQuizzesText {
+  margin: 0;
+  width: 925px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 15px;
+  max-width: 100%;
+  white-space: nowrap;
+  text-align: left;
+  font-size: 60px;
+  color: #ff5d01;
+  font-family: Poppins;
+}
+@media screen and (max-width: 950px) {
+  .textNodeWith {
+    font-size: 48px;
+  }
+  .created,
+  .quiz {
+    font-size: 24px;
+  }
+  .quiz2 {
+    font-size: 48px;
+  }
+  .created1,
+  .questions {
+    font-size: 24px;
+  }
+  .k {
+    font-size: 48px;
+  }
+  .impressions,
+  .total {
+    font-size: 24px;
+  }
+  .trendingQuizzesText {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .textNodeWith {
+    font-size: 36px;
+  }
+  .created,
+  .quiz {
+    font-size: 18px;
+  }
+  .frameContainingQuizQuestion {
+    flex: 1;
+  }
+  .quiz2 {
+    font-size: 36px;
+  }
+  .created1,
+  .questions {
+    font-size: 18px;
+  }
+  .groupQuizIcons {
+    flex: 1;
+  }
+  .k {
+    font-size: 36px;
+  }
+  .impressions,
+  .total {
+    font-size: 18px;
+  }
+}
