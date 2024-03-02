@@ -1,6 +1,6 @@
 import FrameComponent2 from "../components/FrameComponent2";
 import FrameComponent11 from "../components/FrameComponent1";
-import FrameComponent1 from "../components/FrameComponent";
+import FrameComponent1 from "../components/frame-component3";
 import styles from "./Dashboard1.module.css";
 
 const Dashboard1 = () => {

@@ -1,6 +1,6 @@
 import QuizzieFormContainer from "../components/QuizzieFormContainer";
 import FrameComponent11 from "../components/FrameComponent1";
-import FrameComponent1 from "../components/FrameComponent";
+import FrameComponent1 from "../components/frame-component3";
 import styles from "./Dashboard.module.css";
 
 const Dashboard = () => {
